@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import pickle
+import pickle5
 rad=st.sidebar.radio("Navigation",['Home','Breast Cancer Prediction','Lung Cancer Prediction'])
 if rad=='Home':
     st.title("Welcome to Cancer Detection App")
@@ -83,12 +83,12 @@ if rad=='Breast Cancer Prediction':
         data.append(float(a30))
         
         d1=np.array(data).reshape(1,30)
-        sc1=pickle.load(open('scale.pkl','rb'))
+        sc1=pickle.load(open('cancer_prediction/scale.pkl','rb'))
         ty=sc1.transform(d1)
         import pickle
         
         # load model
-        breast_cancer_detector_model = pickle.load(open('breast_cancer_detector.pickle', 'rb'))
+        breast_cancer_detector_model = pickle.load(open('cancer_prediction/breast_cancer_detector.pickle', 'rb'))
         
         # predict the output
         y_pred = breast_cancer_detector_model.predict(ty)
