@@ -132,7 +132,7 @@ if rad=='Lung Cancer Prediction':
         data1.append(float(a11))
         d1=np.array(data1).reshape(1,11)
         # load model
-        lung_cancer_detector_model = pickle.load(open('lung_cancer_detector.pickle', 'rb'))
+        lung_cancer_detector_model = pickle.load(open('cancer_prediction/lung_cancer_detector.pickle', 'rb'))
         
         # predict the output
         y_pred = lung_cancer_detector_model.predict(d1)
