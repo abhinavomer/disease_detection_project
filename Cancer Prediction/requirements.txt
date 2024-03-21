@@ -1,8 +1,0 @@
-pip>=24.0
-seaborn
-matplotlib
-streamlit
-pickle
-scikit-learn
-numpy
-pandas
