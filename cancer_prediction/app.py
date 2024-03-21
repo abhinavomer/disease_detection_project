@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pandas as pd
-import pickle5
+import pickle
 rad=st.sidebar.radio("Navigation",['Home','Breast Cancer Prediction','Lung Cancer Prediction'])
 if rad=='Home':
     st.title("Welcome to Cancer Detection App")
