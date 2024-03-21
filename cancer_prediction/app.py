@@ -5,7 +5,7 @@ import pickle
 rad=st.sidebar.radio("Navigation",['Home','Breast Cancer Prediction','Lung Cancer Prediction'])
 if rad=='Home':
     st.title("Welcome to Cancer Detection App")
-    st.image("https://drive.google.com/file/d/1JrtAz0FlIhoMcVLFIxLVVcAVNAZG2bQj/view?usp=sharing")
+    st.image("https://th.bing.com/th/id/OIP.1t6zNz6gnRfsF2VWXlNw7wHaD_?w=289&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7")
     st.write('Cancer is one of the leading causes of death worldwide, accounting for almost 10 million deaths in 2020. In the same year, over 19 million new cases of cancer were diagnosed. The global cancer burden can be reduced by implementing strategies for prevention complemented with early detection and efficient treatment approaches. Cancer comprises a heterogeneous group of diseases that result from the interaction between individual genetic susceptibility factors and environmental carcinogens of physical, chemical, and infectious nature.')
     st.write('The use of ML to analyze cancer microbiome data shows that it has the potential to aid in the development of new strategies for cancer detection and prevention, possibly finding new relationships unknown yet and ultimately reducing the burden of the disease.')
 if rad=='Breast Cancer Prediction':
