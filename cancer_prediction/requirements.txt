@@ -2,7 +2,7 @@ pip>=24.0
 seaborn
 matplotlib
 streamlit
-pickle
+pickle5
 scikit-learn
 numpy
 pandas
