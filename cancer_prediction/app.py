@@ -83,12 +83,12 @@ if rad=='Breast Cancer Prediction':
         data.append(float(a30))
         
         d1=np.array(data).reshape(1,30)
-        sc1=pickle.load(open(r'C:\Users\abhin\MACHINE LEARNING\ML_PROJECTS\Breast Cancer Prediction\scale.pkl','rb'))
+        sc1=pickle.load(open('scale.pkl','rb'))
         ty=sc1.transform(d1)
         import pickle
         
         # load model
-        breast_cancer_detector_model = pickle.load(open(r'C:\Users\abhin\MACHINE LEARNING\ML_PROJECTS\Breast Cancer Prediction\breast_cancer_detector.pickle', 'rb'))
+        breast_cancer_detector_model = pickle.load(open('breast_cancer_detector.pickle', 'rb'))
         
         # predict the output
         y_pred = breast_cancer_detector_model.predict(ty)
@@ -132,7 +132,7 @@ if rad=='Lung Cancer Prediction':
         data1.append(float(a11))
         d1=np.array(data1).reshape(1,11)
         # load model
-        lung_cancer_detector_model = pickle.load(open(r'C:\Users\abhin\MACHINE LEARNING\ML_PROJECTS\Breast Cancer Prediction\lung_cancer_detector.pickle', 'rb'))
+        lung_cancer_detector_model = pickle.load(open('lung_cancer_detector.pickle', 'rb'))
         
         # predict the output
         y_pred = lung_cancer_detector_model.predict(d1)
