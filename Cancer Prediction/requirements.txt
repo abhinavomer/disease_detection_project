@@ -1,7 +1,5 @@
-tensorflow
+pip
 numpy
 pandas
-pillow
 streamlit
-keras
 pickle
