@@ -10,11 +10,11 @@ st.set_page_config(page_title="Health Assistant",
 
 # loading the saved models
 
-diabetes_model = pickle.load(open('diabetes.h5', 'rb'))
+diabetes_model = pickle.load(open('cancer_prediction/diabetes.h5', 'rb'))
 
-heart_disease_model = pickle.load(open('heart_disease_model.h5', 'rb'))
+heart_disease_model = pickle.load(open('cancer_prediction/heart_disease_model.h5', 'rb'))
 
-parkinsons_model = pickle.load(open('parkinsons_model.h5', 'rb'))
+parkinsons_model = pickle.load(open('cancer_prediction/parkinsons_model.h5', 'rb'))
 
 # sidebar for navigation
 with st.sidebar:
