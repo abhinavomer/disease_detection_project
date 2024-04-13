@@ -25,7 +25,7 @@ with st.sidebar:
                            ['Diabetes Prediction',
                             'Heart Disease Prediction',
                             'Parkinsons Prediction',
-                           'Chronic Kidney Disease']],
+                           'Chronic Kidney Disease'],
                            menu_icon='hospital-fill',
                            icons=['activity', 'heart', 'person','meta'],
                            default_index=0)
