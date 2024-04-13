@@ -6,7 +6,7 @@ The Health Assistant is a Streamlit web application that utilizes machine learni
 
 ## Features
 
-- **Multiple Disease Prediction**: Users can choose from multiple prediction tasks, including diabetes prediction, heart disease prediction, and Parkinson's disease prediction.
+- **Multiple Disease Prediction**: Users can choose from multiple prediction tasks, including diabetes prediction, heart disease prediction, and Parkinson's disease, Chronic Kidney Disease prediction.
 - **User Input**: The application allows users to input relevant medical parameters required for each prediction task.
 - **Machine Learning Models**: Machine learning models trained on relevant datasets are used to predict the likelihood of different health conditions.
 - **Prediction Results**: The application provides users with the predicted diagnosis based on the input parameters and the trained machine learning models.
@@ -14,7 +14,7 @@ The Health Assistant is a Streamlit web application that utilizes machine learni
 
 ## Usage
 
-1. **Select Prediction Task**: Choose the desired prediction task (Diabetes Prediction, Heart Disease Prediction, or Parkinson's Prediction) from the sidebar navigation.
+1. **Select Prediction Task**: Choose the desired prediction task (Diabetes Prediction, Heart Disease Prediction, or Parkinson's Prediction or Chronic kidney disease) from the sidebar navigation.
 2. **Input Parameters**: Input the relevant medical parameters required for the selected prediction task.
 3. **Get Prediction**: Click the corresponding button to get the prediction result for the selected health condition.
 4. **View Diagnosis**: View the diagnosis result displayed on the interface based on the prediction made by the machine learning model.
