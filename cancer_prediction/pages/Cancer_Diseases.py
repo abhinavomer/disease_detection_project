@@ -5,11 +5,11 @@ import pickle
 rad=st.sidebar.radio("Navigation",['Home','Breast Cancer Prediction','Lung Cancer Prediction'])
 if rad=='Home':
     st.title("Welcome to Cancer Detection App")
-    st.image("aa.png")
+    st.image("https://github.com/abhinavomer/disease_detection_project/blob/main/cancer_prediction/aa.png")
     st.write('Cancer is one of the leading causes of death worldwide, accounting for almost 10 million deaths in 2020. In the same year, over 19 million new cases of cancer were diagnosed. The global cancer burden can be reduced by implementing strategies for prevention complemented with early detection and efficient treatment approaches. Cancer comprises a heterogeneous group of diseases that result from the interaction between individual genetic susceptibility factors and environmental carcinogens of physical, chemical, and infectious nature.')
     st.write('The use of ML to analyze cancer microbiome data shows that it has the potential to aid in the development of new strategies for cancer detection and prevention, possibly finding new relationships unknown yet and ultimately reducing the burden of the disease.')
 if rad=='Breast Cancer Prediction':
-    st.image('bc.jpeg')
+    st.image('https://github.com/abhinavomer/disease_detection_project/blob/main/cancer_prediction/bc.jpeg')
     st.title("BREAST CANCER PREDICTION")
     data=[]
     s1,s2,s3,s4,s5,s6,s7,s8,s9,s10=st.columns(10)
@@ -99,7 +99,7 @@ if rad=='Breast Cancer Prediction':
         else:
             st.write("Cancer")
 if rad=='Lung Cancer Prediction':
-    st.image('lc.jpeg')
+    st.image('https://github.com/abhinavomer/disease_detection_project/blob/main/cancer_prediction/lc.jpeg')
     st.title("Lung CANCER PREDICTION")
     data1=[]
     st.write("Enter 1 for 'YES' and 0 for 'NO' ONLY")
