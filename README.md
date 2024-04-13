@@ -18,12 +18,11 @@ This web application utilizes machine learning models to predict the risk of bre
 
 2. Install the necessary dependencies:
 
-pip install -r requirements.txt
-Copy code
+- pip install -r requirements.txt
 
 3. Run the Streamlit app:
 
-streamlit run app.py
+- streamlit run app.py
 
 4. Access the app in your web browser at `http://localhost:8501`.
 
