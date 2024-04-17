@@ -1,7 +1,5 @@
 # Cancer Detection App
 
-![Cancer Detection App](https://www.rishabhsoft.com/wp-content/uploads/2022/06/RSPL_Blog_ML-In-Healthcare-Use-Cases-Benefits_Banner.jpg)
-
 This web application utilizes machine learning models to predict the risk of breast cancer and lung cancer based on user-provided input features. It offers an intuitive interface for users to input relevant information and obtain predictions regarding their cancer risk.
 
 ## Features
